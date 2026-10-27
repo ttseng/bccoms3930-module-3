@@ -186,7 +186,7 @@ void setup() {
   pinMode(BUTTON_B, INPUT);          // GPIO 35 has an external pull-up on the board
 
   tft.init();
-  tft.setRotation(1);                // landscape, 240 x 135
+  tft.setRotation(1);                
   tft.fillScreen(TFT_BLACK);
 
   setupEspNow();
